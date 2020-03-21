@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from "react";
-import { fetchStreaming } from "../services/slides.service";
+import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 const responsive = {
@@ -22,12 +21,8 @@ const responsive = {
     }
 };
 
-const Streaming = () => {
-    const [streaming, setStreaming] = useState([]);
-    useEffect(() => {
-        fetchStreaming().then(setStreaming);
-    }, []);
-
+export default (props) => {
+    const { items } = props;
     return (
         <Carousel
             responsive={responsive}
@@ -38,10 +33,10 @@ const Streaming = () => {
             infinite={true}
             autoPlaySpeed={1000}
         >
-            {streaming.map(book => (
+            {items.map(item => (
                 <img
                     className="w-100"
-                    src={book.thumbnail}
+                    src={item.thumbnail}
                     alt=""
                     draggable="false"
                 />
@@ -49,5 +44,3 @@ const Streaming = () => {
         </Carousel>
     );
 };
-
-export default Streaming;

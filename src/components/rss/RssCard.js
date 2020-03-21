@@ -5,16 +5,17 @@ import RssWall from "./RssWall";
 function RssCard({ logo, src, title }) {
     return (
         <div className="col-xl-6 mb-3">
-            <div className="p-4 bg-light text-dark rounded shadow">
+            <div className="p-4">
                 <div className="row">
-                    <div className="col-sm-12">
+                    <div className="col-sm-12 text-white">
                         <h3>
-                            <img
+                            <span className="mr-3">{logo}</span>
+                            {/* <img
                                 src={logo}
                                 width="100"
                                 className="mr-3 mb-2"
                                 alt="social-media-logo"
-                            />
+                            /> */}
                             {title}
                         </h3>
                     </div>

@@ -9,13 +9,18 @@ const Footer = () => {
                 <div className="col-sm-6 d-flex">
                     <h2>Corona</h2>
                 </div>
-                <div className="col-sm-4">
+                <div className="col-sm-4 text-right">
                     <a href="#" className="h6 btn btn-outline-light">
                         post@oasen.org
                     </a>
                 </div>
-                <div className="col-sm-2">
-                    <img src={logo} alt="" className="w-100 p-3" />
+                <div className="col-sm-2 text-right">
+                    <img
+                        src={logo}
+                        alt=""
+                        className="w-100 p-3"
+                        style={{ maxWidth: "5rem" }}
+                    />
                 </div>
             </div>
         </div>

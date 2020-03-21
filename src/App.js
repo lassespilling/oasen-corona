@@ -6,13 +6,14 @@ import Ressurser from "./components/ressurser/Ressurser";
 import Hillsong from "./components/hillsong/Hillsong";
 import Footer from "./components/layout/Footer";
 
+// get our fontawesome imports
 import Rss from "./components/rss/Rss";
 
 function App() {
     return (
         <div className="App">
-            <Hillsong />
             <Intro />
+            <Hillsong />
             <Rss />
             <Ressurser />
             <Footer />

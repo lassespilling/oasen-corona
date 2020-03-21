@@ -8,8 +8,8 @@ const Hillsong = () => {
         <section id="ressurser">
             <div class="container py-5">
                 <div class="row mb-5">
-                    <h1 class="text-center">Neste tale fra hillsong</h1>
-                    <HillsongLive />;
+                    <h1 class="text-center mx-auto">Neste tale fra hillsong</h1>
+                    <HillsongLive />
                 </div>
             </div>
         </section>

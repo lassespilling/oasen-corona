@@ -9,7 +9,9 @@ export default () => {
         fetchYoutubeLivestreamId(hillsongChannel, true)
             .then(setVideo)
             .catch(() =>
-                fetchYoutubeLivestreamId(hillsongChannel, false).then(setVideo)
+                fetchYoutubeLivestreamId(hillsongChannel, false)
+                    .then(setVideo)
+                    .catch(console.error)
             );
     }, []);
 

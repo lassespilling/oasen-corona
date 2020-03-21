@@ -63,7 +63,7 @@ heng på veggen"
                 />
                 <RessurserCard
                     titleEmoji="🏋️‍♂️"
-                    title="Bibelvers"
+                    title="Mosjon"
                     subtitle="Med stengte treningssentre
 og en innendørs hverdag kan mosjon
 være mer utfordrende enn vanlig."

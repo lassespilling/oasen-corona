@@ -4,6 +4,7 @@ import Emoji from "../layout/Emoji";
 
 const RessurserCard = ({
     bg,
+    overlay,
     color,
     titleEmoji,
     title,
@@ -15,19 +16,28 @@ const RessurserCard = ({
         <div
             style={{
                 background: `url('${bg}')`,
-                color: `url('${color}')`
+                color: color
             }}
-            className="p-4 my-2 bg-light rounded shadow row ressurser__card"
+            className="my-5 bg-light rounded shadow ressurser__card"
         >
-            <div className="col-sm-12 my-5">
-                <h1>
-                    <Emoji symbol={titleEmoji} />
-                    {title}
-                </h1>
-                <h2 class="my-4">{subtitle}</h2>
-                <p class="my-1">{body}</p>
+            <div
+                className="p-4 m-0 rounded row"
+                style={{
+                    background: overlay
+                }}
+            >
+                <div className="col-sm-12 my-5">
+                    <h1 style={{ marginLeft: "-4rem" }}>
+                        <span className="mr-4">
+                            <Emoji symbol={titleEmoji} />
+                        </span>
+                        {title}
+                    </h1>
+                    <h2 class="my-4">{subtitle}</h2>
+                    <p class="my-1">{body}</p>
+                </div>
+                <div className="col-sm-12">{slider}</div>
             </div>
-            <div className="col-sm-12">{slider}</div>
         </div>
     );
 };

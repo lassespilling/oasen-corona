@@ -3,7 +3,11 @@ import "./ressurser.scss";
 import Emoji from "../layout/Emoji";
 import RessurserCard from "./RessurserCard";
 import Carousel from "../Carousel";
-import {fetchBooks, fetchStreaming, fetchSpill} from '../../services/slides.service';
+import {
+    fetchBooks,
+    fetchStreaming,
+    fetchSpill
+} from "../../services/slides.service";
 
 const Ressurser = () => {
     const [streaming, setStreaming] = useState([]);
@@ -47,6 +51,9 @@ også en mulighet til å lese og lære"
                     slider={<Carousel items={books} />}
                 />
                 <RessurserCard
+                    bg="https://addons-media.operacdn.com/media/CACHE/images/themes/85/59785/1.0-rev1/images/45fcedea-f252-4df5-b968-f4ff38a3dca1/d1746aaeceabeea2ebee391b283e8f76.jpg"
+                    color="white"
+                    overlay="rgba(0,0,0,0.5)"
                     titleEmoji="📽"
                     title="Streaming"
                     subtitle="Med mange streamingmuligheter
@@ -55,6 +62,9 @@ kan det være vanskelig å velge"
                     slider={<Carousel items={streaming} />}
                 />
                 <RessurserCard
+                    bg="https://cdn.dribbble.com/users/247458/screenshots/5083720/wallpaper2.jpg"
+                    color="white"
+                    overlay="rgba(0,0,0,0.5)"
                     titleEmoji="🎲"
                     title="Spill"
                     subtitle="Fra terning, kort, brett
@@ -63,6 +73,9 @@ og kontroller, gir vi deg tipsene."
                     slider={<Carousel items={spill} />}
                 />
                 <RessurserCard
+                    bg="https://cmkt-image-prd.freetls.fastly.net/0.1.0/ps/4702711/300/200/m2/fpnw/wm0/hg6yecrq7vuilyyr2r8qj9rhmn5u95yjxvbz6jdix5cxmuzyddhzfoplg2wlkix6-.jpg?1530644796&s=a965adc2444b000292186a0b9f275d58"
+                    color="white"
+                    overlay="rgba(0,0,0,0.5)"
                     titleEmoji="⛪︎"
                     title="Kirke"
                     subtitle="Når brorskap uteblir,
@@ -71,6 +84,9 @@ er bønn og bibel desto viktigere."
                     slider={<Carousel items={books} />}
                 />
                 <RessurserCard
+                    bg="https://cmkt-image-prd.freetls.fastly.net/0.1.0/ps/4702711/300/200/m2/fpnw/wm0/hg6yecrq7vuilyyr2r8qj9rhmn5u95yjxvbz6jdix5cxmuzyddhzfoplg2wlkix6-.jpg?1530644796&s=a965adc2444b000292186a0b9f275d58"
+                    color="white"
+                    overlay="rgba(0,0,0,0.5)"
                     titleEmoji="⛪︎"
                     title="Bibelvers"
                     subtitle="Last ned bibelvers som bakgrunn til telefonen
@@ -79,6 +95,9 @@ heng på veggen"
                     slider={<Carousel items={books} />}
                 />
                 <RessurserCard
+                    bg="https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v384-ning-03b-gradientbg_2.jpg?w=800&dpr=1&fit=default&crop=default&auto=format&fm=pjpg&q=75&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=551a4fe3e20bf7d62ff98f7a007c30d0"
+                    color="white"
+                    overlay="rgba(0,0,0,0.5)"
                     titleEmoji="🏋️‍♂️"
                     title="Mosjon"
                     subtitle="Med stengte treningssentre

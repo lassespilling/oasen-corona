@@ -62,11 +62,11 @@ class Corona extends React.Component {
                         </div>
                     </div>
                     <div className="row mt-5 mb-5">
-                        <div className="row">
+                        <div className="row p-5">
                             <div className="col-12 mb-3">
                                 <h3>Hvordan forebygge smitte</h3>
                             </div>
-                            <div className="col-sm-3 col-md-3">
+                            <div className="col-6 col-sm-3 col-md-3 mb-4">
                                 <img
                                     className="mb-3 rounded-circle"
                                     src="https://picsum.photos/200"
@@ -80,7 +80,7 @@ class Corona extends React.Component {
                                     hoster eller nyser.
                                 </p>
                             </div>
-                            <div className="col-sm-3 col-md-3">
+                            <div className="col-6 col-sm-3 col-md-3 mb-4">
                                 <img
                                     className="mb-3 rounded-circle"
                                     src="https://picsum.photos/200"
@@ -94,7 +94,7 @@ class Corona extends React.Component {
                                     lommetørkle
                                 </p>
                             </div>
-                            <div className="col-sm-3 col-md-3">
+                            <div className="col-6 col-sm-3 col-md-3 mb-4">
                                 <img
                                     className="mb-3 rounded-circle"
                                     src="https://picsum.photos/200"
@@ -108,7 +108,7 @@ class Corona extends React.Component {
                                     ute blant folk.
                                 </p>
                             </div>
-                            <div className="col-sm-3 col-md-3">
+                            <div className="col-6 col-sm-3 col-md-3 mb-4">
                                 <img
                                     className="mb-3 rounded-circle"
                                     src="https://picsum.photos/200"

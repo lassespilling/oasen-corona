@@ -1,18 +1,19 @@
-import React, { useState, useEffect } from 'react';
-import { fetchBooks } from '../services/book.service';
+import React, { useState, useEffect } from "react";
+import { fetchBooks } from "../services/book.service";
 
 export default () => {
-
     const [books, setBooks] = useState([]);
     useEffect(() => {
-        fetchBooks().then(setBooks)
+        fetchBooks().then(setBooks);
     }, []);
 
     return (
         <>
             {books.map(book => (
-                <img src={book.thumbnail} width="64px"></img>
+                <div>
+                    <img src={book.thumbnail} width="64px"></img>
+                </div>
             ))}
         </>
     );
-}
+};

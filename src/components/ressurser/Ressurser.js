@@ -2,13 +2,14 @@ import React from "react";
 import "./ressurser.scss";
 import Emoji from "../layout/Emoji";
 import RessurserCard from "./RessurserCard";
+import Books from "../Books";
 
 const Ressurser = () => {
     return (
         <section id="ressurser">
             <div class="container py-5">
                 <div class="row mb-5">
-                    <h1 class="d-block">
+                    <h1 class="w-100">
                         <Emoji symbol="📚" label="books" />
                         <Emoji symbol="📽" label="movies" />
                         <Emoji symbol="🎲" label="games" />
@@ -17,7 +18,7 @@ const Ressurser = () => {
                         <br></br>
                         Ressurser
                     </h1>
-                    <h2 class="d-block">Tips og triks til den nye hverdagen</h2>
+                    <h2 class="w-100">Tips og triks til den nye hverdagen</h2>
                 </div>
                 <RessurserCard
                     title="Hverdagen"

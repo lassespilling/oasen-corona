@@ -8,8 +8,6 @@ import RssList from "./components/rss/RssList";
 import FacebookLogo from "./assets/facebook.svg";
 import RssCard from "./components/rss/RssCard";
 
-import Books from "./components/Books";
-
 function App() {
     return (
         <div className="App">

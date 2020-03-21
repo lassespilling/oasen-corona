@@ -13,6 +13,7 @@
         "popper.js": "^1.16.1",
         "react": "^16.13.1",
         "react-dom": "^16.13.1",
+        "react-multi-carousel": "^2.5.3",
         "react-scripts": "3.4.1",
         "react-youtube": "^7.9.0",
         "typescript": "^3.8.3"

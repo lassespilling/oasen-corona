@@ -4,7 +4,7 @@ import FacebookLogo from "../../assets/facebook.svg";
 
 const Rss = () => {
     return (
-        <div className="row mx-auto">
+        <div className="row mx-auto" id="rss">
             <div className="row p-4" id="hilsen">
                 <RssCard
                     logo={FacebookLogo}

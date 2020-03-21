@@ -1,34 +1,7 @@
 $color--brown: #834e21;
 
-html {
-    width: 100vw;
-    overflow-x: hidden;
-}
-
 body {
     color: $color--brown;
-    background: rgb(255, 127, 0);
-    background: -moz-linear-gradient(
-        180deg,
-        rgba(255, 127, 0, 1) 0%,
-        rgba(255, 248, 193, 1) 52%,
-        rgba(255, 255, 255, 0) 100%
-    );
-    background: -webkit-linear-gradient(
-        180deg,
-        rgba(255, 127, 0, 1) 0%,
-        rgba(255, 248, 193, 1) 52%,
-        rgba(255, 255, 255, 0) 100%
-    );
-    background: linear-gradient(
-        180deg,
-        rgba(255, 127, 0, 1) 0%,
-        rgba(255, 248, 193, 1) 52%,
-        rgba(255, 255, 255, 0) 100%
-    );
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff7f00",endColorstr="#ffffff",GradientType=1);
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 /* Cards */

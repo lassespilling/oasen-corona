@@ -22,6 +22,8 @@ const Ressurser = () => {
                     <h2 class="w-100">Tips og triks til den nye hverdagen</h2>
                 </div>
                 <RessurserCard
+                    bg="https://www.xmple.com/wallpaper/black-brown-gradient-linear-1920x1080-c2-000000-cd853f-a-90-f-14.svg"
+                    color="white"
                     titleEmoji="📚"
                     title="Bøker"
                     subtitle="Med mer tid alene har vi

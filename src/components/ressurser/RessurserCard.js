@@ -2,9 +2,23 @@ import React from "react";
 import "./ressurser.scss";
 import Emoji from "../layout/Emoji";
 
-const RessurserCard = ({ titleEmoji, title, subtitle, body, slider }) => {
+const RessurserCard = ({
+    bg,
+    color,
+    titleEmoji,
+    title,
+    subtitle,
+    body,
+    slider
+}) => {
     return (
-        <div className="p-4 my-2 bg-light text-dark rounded shadow row ressurser__card">
+        <div
+            style={{
+                background: `url('${bg}')`,
+                color: `url('${color}')`
+            }}
+            className="p-4 my-2 bg-light rounded shadow row ressurser__card"
+        >
             <div className="col-sm-12 my-5">
                 <h1>
                     <Emoji symbol={titleEmoji} />

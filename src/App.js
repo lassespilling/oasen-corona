@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.scss";
 import Intro from "./components/Intro";
-import Corona from "./components/Corona";
+// import Corona from "./components/Corona";
 import Ressurser from "./components/ressurser/Ressurser";
 // import Hillsong from "./components/hillsong/Hillsong";
 

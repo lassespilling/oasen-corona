@@ -2,7 +2,8 @@ import React from "react";
 import "./ressurser.scss";
 import Emoji from "../layout/Emoji";
 import RessurserCard from "./RessurserCard";
-import Slides from "../Slides";
+import Books from "../Books";
+import Streaming from "../Streaming";
 
 const Ressurser = () => {
     return (
@@ -26,17 +27,23 @@ const Ressurser = () => {
                     subtitle="Med mer tid alene har vi
 også en mulighet til å lese og lære"
                     body="Om du foretrekker selvhjelpsbøker, religiøse bøker, krim eller kanskje Donald pocket, så finnes det mange ressurser tilgjengelig på nett som gjør det mulig å lese."
-                    topRight="Vi anbefaler"
-                    slider={<Slides />}
+                    slider={<Books />}
                 />
                 <RessurserCard
-                    titleEmoji="📚"
+                    titleEmoji="📽"
                     title="Streaming"
                     subtitle="Med mange streamingmuligheter
 kan det være vanskelig å velge"
                     body="Det finnes mye bra, men det krever at en kommer gjennom jungelen av ukjente,  destruktive og rett og slett dårlige film og tv-produksjoner. Det finnes mye som ikke akkurat gjør deg til et klokere eller bedre menneske, derfor har vi gjort jobben med å gå igjennom streamingtjenester, filmer og tv-serier som vi vet er bra!"
-                    topRight="Vi anbefaler"
-                    slider={<Slides />}
+                    slider={<Streaming />}
+                />
+                <RessurserCard
+                    titleEmoji="🎲"
+                    title="Spill"
+                    subtitle="Fra terning, kort, brett
+og kontroller, gir vi deg tipsene."
+                    body="Det finnes mye bra, men det krever at en kommer gjennom jungelen av ukjente,  destruktive og rett og slett dårlige film og tv-produksjoner. Det finnes mye som ikke akkurat gjør deg til et klokere eller bedre menneske, derfor har vi gjort jobben med å gå igjennom streamingtjenester, filmer og tv-serier som vi vet er bra!"
+                    slider={<Streaming />}
                 />
             </div>
         </section>

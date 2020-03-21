@@ -1,6 +1,22 @@
 #ressurser {
     color: #1d765b;
-    background: #defff6;
+    background: rgb(222, 255, 246);
+    background: -moz-linear-gradient(
+        180deg,
+        rgba(222, 255, 246, 1) 0%,
+        rgba(255, 254, 232, 1) 100%
+    );
+    background: -webkit-linear-gradient(
+        180deg,
+        rgba(222, 255, 246, 1) 0%,
+        rgba(255, 254, 232, 1) 100%
+    );
+    background: linear-gradient(
+        180deg,
+        rgba(222, 255, 246, 1) 0%,
+        rgba(255, 254, 232, 1) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#defff6",endColorstr="#fffee8",GradientType=1);
 }
 .ressurser__card {
     & h1 {

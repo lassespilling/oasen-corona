@@ -45,6 +45,31 @@ og kontroller, gir vi deg tipsene."
                     body="Det finnes mye bra, men det krever at en kommer gjennom jungelen av ukjente,  destruktive og rett og slett dårlige film og tv-produksjoner. Det finnes mye som ikke akkurat gjør deg til et klokere eller bedre menneske, derfor har vi gjort jobben med å gå igjennom streamingtjenester, filmer og tv-serier som vi vet er bra!"
                     slider={<Streaming />}
                 />
+                <RessurserCard
+                    titleEmoji="⛪︎"
+                    title="Kirke"
+                    subtitle="Når brorskap uteblir,
+er bønn og bibel desto viktigere."
+                    body="I Oasen har vi valgt å følge online gudstjenestene til Hillsong, lifegruppene vil ha videosamtaler med opplegg tilpasset talene fra Hillsong. Samtidig er det også mange andre rescuer der ute som vi anbefaler deg å ta nytte av i denne tiden."
+                    slider={<Streaming />}
+                />
+                <RessurserCard
+                    titleEmoji="⛪︎"
+                    title="Bibelvers"
+                    subtitle="Last ned bibelvers som bakgrunn til telefonen
+eller print ut og
+heng på veggen"
+                    slider={<Streaming />}
+                />
+                <RessurserCard
+                    titleEmoji="🏋️‍♂️"
+                    title="Bibelvers"
+                    subtitle="Med stengte treningssentre
+og en innendørs hverdag kan mosjon
+være mer utfordrende enn vanlig."
+                    body="Det er nok de færreste som har treningssenter hjemme, og mange hverken tør eller bør bevege seg mye utendørs. Det finnes derimot mange gratis ressurser om tilbyr treningsopplegg for de som er hjemme uten utstyr."
+                    slider={<Streaming />}
+                />
             </div>
         </section>
     );

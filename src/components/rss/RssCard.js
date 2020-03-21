@@ -1,7 +1,6 @@
 import React from "react";
 import RssList from "./RssList";
 import RssWall from "./RssWall";
-import FacebookLogo from "../../assets/facebook.svg";
 
 function RssCard({ logo, src, title }) {
     return (
@@ -10,7 +9,12 @@ function RssCard({ logo, src, title }) {
                 <div className="row">
                     <div className="col-sm-12">
                         <h3>
-                            <img src={logo} width="100" className="mr-3 mb-2" />
+                            <img
+                                src={logo}
+                                width="100"
+                                className="mr-3 mb-2"
+                                alt="social-media-logo"
+                            />
                             {title}
                         </h3>
                     </div>

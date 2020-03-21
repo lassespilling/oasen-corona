@@ -2,7 +2,7 @@ import React from "react";
 import "./ressurser.scss";
 import Emoji from "../layout/Emoji";
 import RessurserCard from "./RessurserCard";
-import Books from "../Books";
+import Slides from "../Slides";
 
 const Ressurser = () => {
     return (
@@ -21,20 +21,22 @@ const Ressurser = () => {
                     <h2 class="w-100">Tips og triks til den nye hverdagen</h2>
                 </div>
                 <RessurserCard
-                    title="Hverdagen"
-                    subtitle="Hverdagen har brått endret seg for mange av oss"
-                    body="Hverdagen er brått blitt endret for mange mennesker.
-                        Flere jobber hjemmefra og mange arbeidsplasser og
-                        privatpersoner kjenner på trykket. Barna er hjemme,
-                        skoler og samlingsplasser er stengt og mange av oss
-                        kjenner nok at dette er en ensom og isolert tid."
-                />
-                <RessurserCard
                     titleEmoji="📚"
                     title="Bøker"
                     subtitle="Med mer tid alene har vi
 også en mulighet til å lese og lære"
                     body="Om du foretrekker selvhjelpsbøker, religiøse bøker, krim eller kanskje Donald pocket, så finnes det mange ressurser tilgjengelig på nett som gjør det mulig å lese."
+                    topRight="Vi anbefaler"
+                    slider={<Slides />}
+                />
+                <RessurserCard
+                    titleEmoji="📚"
+                    title="Streaming"
+                    subtitle="Med mange streamingmuligheter
+kan det være vanskelig å velge"
+                    body="Det finnes mye bra, men det krever at en kommer gjennom jungelen av ukjente,  destruktive og rett og slett dårlige film og tv-produksjoner. Det finnes mye som ikke akkurat gjør deg til et klokere eller bedre menneske, derfor har vi gjort jobben med å gå igjennom streamingtjenester, filmer og tv-serier som vi vet er bra!"
+                    topRight="Vi anbefaler"
+                    slider={<Slides />}
                 />
             </div>
         </section>

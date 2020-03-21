@@ -12,10 +12,13 @@
         "node-sass": "^4.13.1",
         "popper.js": "^1.16.1",
         "react": "^16.13.1",
+        "react-alice-carousel": "^1.17.3",
+        "react-bnb-gallery": "^1.1.9",
         "react-dom": "^16.13.1",
         "react-multi-carousel": "^2.5.3",
         "react-scripts": "3.4.1",
         "react-youtube": "^7.9.0",
+        "slick-carousel": "^1.8.1",
         "typescript": "^3.8.3"
     },
     "scripts": {

@@ -1,6 +1,4 @@
 import React from "react";
-import logo from "../assets/logo.svg";
-import Emoji from "./layout/Emoji";
 import "./corona.scss";
 
 class Corona extends React.Component {
@@ -26,13 +24,7 @@ class Corona extends React.Component {
                         </div>
                     </div>
                     <div className="row mt-5 mb-5 rounded p-4 bg-faded-brown">
-                        <div className="col-sm-6">
-                            <img
-                                className="w-100"
-                                src="https://picsum.photos/1920/1080"
-                                alt=""
-                            />
-                        </div>
+                        <div className="col-sm-6"></div>
                         <div className="col-sm-6">
                             <h3>Wuhan desember 2019</h3>
                             <p>

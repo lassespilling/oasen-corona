@@ -1,50 +1,18 @@
 import React from "react";
 import "./App.scss";
 import Intro from "./components/Intro";
-// import Corona from "./components/Corona";
+import Corona from "./components/Corona";
 import Ressurser from "./components/ressurser/Ressurser";
+// import Hillsong from "./components/hillsong/Hillsong";
 
-import RssList from "./components/rss/RssList";
-import FacebookLogo from "./assets/facebook.svg";
-import RssCard from "./components/rss/RssCard";
+import Rss from "./components/rss/Rss";
 
 function App() {
     return (
         <div className="App">
-            {/* <Books />
+            {/* <Hillsong /> */}
             <Intro />
-            <div>
-                <div className="row mx-auto">
-                    <div className="row p-4" id="hilsen">
-                        <RssCard
-                            logo={FacebookLogo}
-                            src="1HiyaYcJyXrKpUEI"
-                            title="Oasen - Søgne"
-                        />
-                        <RssCard
-                            logo={FacebookLogo}
-                            src="Xd6rOY38yuFbHPTO"
-                            title="Oasen - Mandal"
-                        />
-                        <RssCard
-                            logo={FacebookLogo}
-                            src="zDJdX70kW9sxZIzH"
-                            title="Oasen Alive"
-                        />
-                        <RssCard
-                            logo={FacebookLogo}
-                            src="TWlH6bNQpnadojTR"
-                            title="Oasen Skolene"
-                        />
-                        <RssCard
-                            logo={FacebookLogo}
-                            src="ceG7HMgU9qbeumdI"
-                            title="Spiren Barnehage"
-                        />
-                    </div>
-                </div>
-            </div>
-            <Corona /> */}
+            <Rss />
             <Ressurser />
         </div>
     );

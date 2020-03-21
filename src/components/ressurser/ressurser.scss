@@ -1,0 +1,13 @@
+#ressurser {
+    color: #1d765b;
+    background: #defff6;
+}
+.ressurser__card {
+    & h1 {
+        font-size: 3rem;
+    }
+    & h2 {
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+}

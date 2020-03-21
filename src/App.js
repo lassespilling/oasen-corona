@@ -1,17 +1,19 @@
 import React from "react";
 import "./App.scss";
 import Intro from "./components/Intro";
+// import Corona from "./components/Corona";
+import Ressurser from "./components/ressurser/Ressurser";
+
 import RssList from "./components/rss/RssList";
 import FacebookLogo from "./assets/facebook.svg";
 import RssCard from "./components/rss/RssCard";
-// import Corona from "./components/Corona";
 
 import Books from "./components/Books";
 
 function App() {
     return (
         <div className="App">
-            <Books />
+            {/* <Books />
             <Intro />
             <div>
                 <div className="row mx-auto">
@@ -44,7 +46,8 @@ function App() {
                     </div>
                 </div>
             </div>
-            {/* <Corona /> */}
+            <Corona /> */}
+            <Ressurser />
         </div>
     );
 }

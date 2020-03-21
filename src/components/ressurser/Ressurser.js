@@ -3,11 +3,7 @@ import "./ressurser.scss";
 import Emoji from "../layout/Emoji";
 import RessurserCard from "./RessurserCard";
 import Carousel from "../Carousel";
-<<<<<<< HEAD
-import { fetchBooks, fetchStreaming } from "../../services/slides.service";
-=======
 import {fetchBooks, fetchStreaming, fetchSpill} from '../../services/slides.service';
->>>>>>> 0712bd4409c707342ef002cf589eae89ef1e5aeb
 
 const Ressurser = () => {
     const [streaming, setStreaming] = useState([]);

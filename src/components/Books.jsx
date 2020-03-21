@@ -5,7 +5,7 @@ export default () => {
 
     const [books, setBooks] = useState([]);
     useEffect(() => {
-        setBooks(fetchBooks());
+        fetchBooks().then(setBooks)
     }, []);
 
     return (

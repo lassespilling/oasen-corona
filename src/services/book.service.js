@@ -1,5 +1,5 @@
 import data from './data.json';
 
 export const fetchBooks = () => {
-    return data.books;
+    return Promise.resolve(data.books);
 }

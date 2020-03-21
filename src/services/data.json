@@ -1,0 +1,14 @@
+{
+    "books": [
+        {
+            "title": "Bibelen",
+            "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/81LjhkmqlwL.jpg"
+        }
+    ],
+    "streaming": [
+        {
+            "title": "Fireproof",
+            "thumbnail": "http://img.recipepuppy.com/1.jpg"
+        }
+    ]
+}

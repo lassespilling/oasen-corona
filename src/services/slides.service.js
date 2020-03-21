@@ -6,3 +6,6 @@ export const fetchBooks = () => {
 export const fetchStreaming = () => {
     return Promise.resolve(data.streaming);
 };
+export const fetchSpill = () => {
+    return Promise.resolve(data.spill);
+};

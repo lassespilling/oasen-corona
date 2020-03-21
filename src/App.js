@@ -1,14 +1,13 @@
 import React from "react";
-import logo from "./assets/logo.svg";
 import "./App.scss";
+import Intro from "./components/Intro";
+import Corona from "./components/Corona";
 
 function App() {
     return (
         <div className="App">
-            <div>
-                <img src={logo} className="App-logo" alt="logo" />
-                <h1>Test title</h1>
-            </div>
+            <Intro />
+            <Corona />
         </div>
     );
 }

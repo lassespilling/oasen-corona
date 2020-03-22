@@ -7,6 +7,12 @@ body {
     overflow-x: hidden;
 }
 
+@media screen and (max-width: 700px) {
+    body {
+font-size: 30px;
+    }
+}
+
 .heartbeat {
     animation: heartbeat 1.5s infinite forwards ease-in-out;
 }

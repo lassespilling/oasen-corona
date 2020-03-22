@@ -2,12 +2,13 @@ $color--brown: #d48c4d;
 body {
     color: $color--brown;
     font-size: 20px;
-    width: 100vw;
 }
-html,
-body {
+.app {
+    max-width: 100vw;
     position: relative;
     overflow-x: hidden;
+    -webkit-overflow-scrolling: auto !important;
+    touch-action: pan-y pinch-zoom;
 }
 .heartbeat {
     animation: heartbeat 1.5s infinite forwards ease-in-out;
@@ -119,12 +120,6 @@ p {
     font-size: 25%;
     font-weight: normal;
     letter-spacing: 0.1em;
-}
-
-.app {
-    max-width: 100vw;
-    position: relative;
-    overflow-x: hidden;
 }
 
 .App-logo {

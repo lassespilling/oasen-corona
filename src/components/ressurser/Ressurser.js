@@ -103,7 +103,7 @@ og kontroller, gir vi deg tipsene."
                     title="Kirke"
                     subtitle="Når brorskap uteblir,
 er bønn og bibel desto viktigere."
-                    body="I Oasen har vi valgt å følge online gudstjenestene til Hillsong, lifegruppene vil ha videosamtaler med opplegg tilpasset talene fra Hillsong. Samtidig er det også mange andre rescuer der ute som vi anbefaler deg å ta nytte av i denne tiden."
+                    body="I Oasen har vi valgt å følge online gudstjenestene til Hillsong, lifegruppene vil ha videosamtaler med opplegg tilpasset talene fra Hillsong. Samtidig er det også mange andre ressurser der ute som vi anbefaler deg å ta nytte av i denne tiden."
                     slider={<Carousel items={kirke} />}
                 />
                 <RessurserCard

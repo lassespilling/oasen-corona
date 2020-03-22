@@ -48,7 +48,7 @@ const Ressurser = () => {
     return (
         <section id="ressurser">
             <div class="container py-5">
-                <div class="row my-5">
+                <div class="row my-5 p-5">
                     <ScrollAnimation animateIn="fadeIn">
                         <h1 class="w-100">
                             <Emoji symbol="📚" label="books" />

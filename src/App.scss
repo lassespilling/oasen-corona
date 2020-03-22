@@ -1,5 +1,7 @@
 $color--brown: #d48c4d;
-
+img {
+    overflow-x: hidden;
+}
 body {
     color: $color--brown;
     font-size: 20px;
@@ -59,6 +61,13 @@ body {
 }
 
 /* Typography */
+h1,h2,h3,h4,h5,p {
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
 h1 {
     font-size: 4rem;
     font-weight: bold;

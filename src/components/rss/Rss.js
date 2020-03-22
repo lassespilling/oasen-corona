@@ -8,9 +8,9 @@ import "animate.css/animate.min.css";
 
 const Rss = () => {
     return (
-        <div className="row mx-auto" id="rss">
+        <div className="container mx-auto" id="rss">
             <div className="row p-4" id="hilsen">
-                <div className="col-8 mx-auto my-5">
+                <div className="mx-auto p-3 my-5">
                     <ScrollAnimation animateIn="fadeIn">
                         <img src={logo} className="App-logo mb-4" alt="logo" />
                         <h1>Hold deg oppdatert</h1>

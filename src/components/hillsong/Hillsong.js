@@ -29,10 +29,10 @@ const Hillsong = () => {
 
     const [error, setError] = useState();
     return (
-        <section id="ressurser">
+        <section id="ressurser" >
             <ScrollAnimation animateIn="fadeIn">
                 <div class="container py-5">
-                    <div class="row mb-5">
+                    <div class="row mb-5 p-3">
                         <heading class="w-100 mb-5 row">
                                 <h1 className="text-center mx-auto">
                                     <img

@@ -1,14 +1,9 @@
 $color--brown: #d48c4d;
-img {
-    overflow-x: hidden;
-}
 body {
     color: $color--brown;
     font-size: 20px;
     width: 100vw;
-    overflow-x: hidden;
 }
-
 .heartbeat {
     animation: heartbeat 1.5s infinite forwards ease-in-out;
 }

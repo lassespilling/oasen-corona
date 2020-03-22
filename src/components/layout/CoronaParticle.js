@@ -1,10 +1,9 @@
 import React from "react";
 
-const C = ({ speed, dir, id, size, x,y,blur }) => {
+const CoronaParticle = ({ speed, dir, id, size, x,y,blur }) => {
     return (
         <span
             className="plax"
-            style={{width:"100vw", height: "100vh", position: "absolute"}}
             data-jsuplxdir={dir}
             data-jsuplxperspective={speed}
         >
@@ -13,4 +12,4 @@ const C = ({ speed, dir, id, size, x,y,blur }) => {
     );
 };
 
-export default C;
+export default CoronaParticle;

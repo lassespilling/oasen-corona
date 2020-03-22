@@ -4,7 +4,7 @@ import "./footer.scss";
 
 const Footer = () => {
     return (
-        <div className="w-100 text-white" id="footer">
+        <div className="container-fluid w-100 text-white" id="footer">
             <div className="container">
                 <div className="row d-flex align-items-center p-3">
                     <div className="col-4 d-flex">

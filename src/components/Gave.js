@@ -5,8 +5,8 @@ import "animate.css/animate.min.css";
 
 const Gave = () => {
     return (
-        <div
-            className="container-fluid p-5"
+        <section
+            className="container p-5"
             style={{ background: "yellow", color: "purple" }}
         >
             <ScrollAnimation animateIn="fadeIn">
@@ -58,7 +58,7 @@ const Gave = () => {
                     </div>
                 </div>
             </ScrollAnimation>
-        </div>
+        </section>
     );
 };
 

@@ -16,7 +16,7 @@ class Intro extends React.Component {
     }
     render() {
         return (
-            <section id="intro">
+            <section id="intro" className="position-relative container w-100">
             <C speed="500" dir="bottom" size="2" x="80" y="70"/>
             <C speed="200" dir="bottom" size="10" x="20" y="20"/>
             <C speed="300" dir="bottom" size="35" x="1" y="35"/>

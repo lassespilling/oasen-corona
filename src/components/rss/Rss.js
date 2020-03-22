@@ -13,7 +13,11 @@ const Rss = () => {
                 <div className="row p-4" id="hilsen">
                     <div className="mx-auto p-3 my-5">
                         <ScrollAnimation animateIn="fadeIn">
-                            <img src={logo} className="App-logo mb-4" alt="logo" />
+                            <img
+                                src={logo}
+                                className="App-logo mb-4"
+                                alt="logo"
+                            />
                             <h1>Hold deg oppdatert</h1>
                         </ScrollAnimation>
                     </div>
@@ -22,11 +26,11 @@ const Rss = () => {
                         src="1HiyaYcJyXrKpUEI"
                         title="Oasen - Søgne"
                     />
-                    {/* <RssCard
+                    <RssCard
                         logo={<FontAwesomeIcon icon={faFacebook} />}
                         src="Xd6rOY38yuFbHPTO"
                         title="Oasen - Mandal"
-                    /> */}
+                    />
                     <RssCard
                         logo={<FontAwesomeIcon icon={faInstagram} />}
                         src="zDJdX70kW9sxZIzH"

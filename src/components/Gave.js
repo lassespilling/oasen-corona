@@ -2,18 +2,20 @@ import React from "react";
 import Emoji from "./layout/Emoji";
 import ScrollAnimation from "react-animate-on-scroll";
 import "animate.css/animate.min.css";
+import "./gave.scss";
 
 const Gave = () => {
     return (
         <section
             className="p-5"
             style={{ background: "yellow", color: "purple" }}
+            id="gave"
         >
             <ScrollAnimation animateIn="fadeIn">
                 <div className="container">
                     <div className="row">
-                        <div className="col-sm-12 mb-5  text-center">
-                            <h1 className="mx-auto w-100 mb-5">
+                        <div className="col-sm-12 mb-5">
+                            <h1 className="mx-auto w-100 mb-5 text-center">
                                 <span className="mr-3">
                                     <div className="heartbeat">
                                         <ScrollAnimation
@@ -35,35 +37,33 @@ const Gave = () => {
                                 det.
                             </p>
                         </div>
-                        <div className="col-sm-12 mx-auto text-center mb-5">
-                            <h3 className="mb-3">Gi med Vipps</h3>
-                            <div className="vipps ml-4">
-                                <ScrollAnimation
-                                    animateOnce="true"
-                                    animateIn="pulse"
-                                    className="row"
-                                >
+                        <div className="col-sm-12 mx-auto mb-5">
+                            <div className="vipps ml-4 row text-center">
+                                <div className="col-6 mt-2 text-right">
                                     <img
                                         src="https://www.vipps.no/static/vipps_theme/1.0.51/media/extra-images/vipps-logo.svg"
                                         width="150px"
-                                        className="ml-auto"
-                                        alt="vipps logo mx-3 col-6"
+                                        alt="vipps logo mx-3"
                                     ></img>
+                                </div>
+                                <div className="col-6">
                                     <p
-                                        className="h1 text-left mx-3 col-6"
+                                        className="h1 text-left"
                                         style={{ color: "#ff5c24" }}
                                     >
                                         <b>13067</b>
                                     </p>
-                                </ScrollAnimation>
+                                </div>
                             </div>
-                            <a
-                                href="https://oasen.org/bli-med/gi-en-gave/"
-                                className="btn btn-large my-3 btn-outline-dark"
-                            >
-                                {" "}
-                                <b>Les mer</b>
-                            </a>
+                            <div className="row">
+                                <a
+                                    href="https://oasen.org/bli-med/gi-en-gave/"
+                                    className="mx-auto btn btn-large my-3 btn-outline-dark"
+                                >
+                                    {" "}
+                                    <b>Les mer</b>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>

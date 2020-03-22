@@ -7,15 +7,15 @@ const Footer = () => {
         <div className="container-fluid w-100 text-white" id="footer">
             <div className="container">
                 <div className="row d-flex align-items-center p-3">
-                    <div className="col-4 d-flex">
+                    <div className="col-12 col-sm-4 d-flex">
                         <h2>Corona</h2>
                     </div>
-                    <div className="col-5 text-right">
+                    <div className="col-6 col-sm-5 text-right">
                         <p className="h6 btn btn-outline-light">
                             post@oasen.org
                         </p>
                     </div>
-                    <div className="col-3 text-right">
+                    <div className="col-6 col-sm-3 text-right">
                         <img
                             src={logo}
                             alt=""

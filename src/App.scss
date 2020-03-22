@@ -12,6 +12,7 @@ body {
 }
 .heartbeat {
     animation: heartbeat 1.5s infinite forwards ease-in-out;
+    transform-origin: center;
 }
 .vipps {
     animation: vipps 3s infinite forwards ease-in-out;

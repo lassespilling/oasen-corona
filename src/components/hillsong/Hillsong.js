@@ -29,28 +29,26 @@ const Hillsong = () => {
 
     const [error, setError] = useState();
     return (
-        <section id="ressurser" >
+        <section id="hillsong">
             <ScrollAnimation animateIn="fadeIn">
                 <div class="container py-5">
                     <div class="row mb-5 p-3">
                         <heading class="w-100 mb-5 row">
-                                <h1 className="text-center mx-auto">
-                                    <img
-                                        src="https://du9lyah05zc6l.cloudfront.net/wp-content/themes/hillsong/images/logo-outline-small.png"
-                                        width="60px"
-                                        className="mr-3 mb-3"
-                                        style={{ filter: "invert(1)" }}
-                                        alt=""
-                                    />
-                                    <FontAwesomeIcon
-                                        color="#c4302b"
-                                        icon={faYoutube}
-                                        className="mr-3"
-                                    />
-                                </h1>
-                            <h1 class="text-center w-100">
-                                Hillsong Live
+                            <h1 className="text-center mx-auto">
+                                <img
+                                    src="https://du9lyah05zc6l.cloudfront.net/wp-content/themes/hillsong/images/logo-outline-small.png"
+                                    width="60px"
+                                    className="mr-3 mb-3"
+                                    style={{ filter: "invert(1)" }}
+                                    alt=""
+                                />
+                                <FontAwesomeIcon
+                                    color="#c4302b"
+                                    icon={faYoutube}
+                                    className="mr-3"
+                                />
                             </h1>
+                            <h1 class="text-center w-100">Hillsong Live</h1>
                             <h2 class="h4 text-center mx-auto">
                                 Neste live sending: Søndag 11.00
                             </h2>

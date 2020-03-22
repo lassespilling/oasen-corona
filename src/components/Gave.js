@@ -6,11 +6,7 @@ import "./gave.scss";
 
 const Gave = () => {
     return (
-        <section
-            className="p-5"
-            style={{ background: "yellow", color: "purple" }}
-            id="gave"
-        >
+        <section className="p-5" id="gave">
             <ScrollAnimation animateIn="fadeIn">
                 <div className="container">
                     <div className="row">

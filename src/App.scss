@@ -4,6 +4,11 @@ body {
     font-size: 20px;
     width: 100vw;
 }
+html,
+body {
+    position: relative;
+    overflow-x: hidden;
+}
 .heartbeat {
     animation: heartbeat 1.5s infinite forwards ease-in-out;
 }

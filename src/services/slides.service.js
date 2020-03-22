@@ -9,3 +9,12 @@ export const fetchStreaming = () => {
 export const fetchSpill = () => {
     return Promise.resolve(data.spill);
 };
+export const fetchKirke = () => {
+    return Promise.resolve(data.kirke);
+};
+export const fetchBibelvers = () => {
+    return Promise.resolve(data.bibelvers);
+};
+export const fetchMosjon = () => {
+    return Promise.resolve(data.mosjon);
+};

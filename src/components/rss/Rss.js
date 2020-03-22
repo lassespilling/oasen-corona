@@ -2,21 +2,26 @@ import React from "react";
 import RssCard from "./RssCard";
 import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import logo from "../../assets/logo.svg";
 
 const Rss = () => {
     return (
         <div className="row mx-auto" id="rss">
             <div className="row p-4" id="hilsen">
+                <div className="col-8 mx-auto my-5">
+                    <img src={logo} className="App-logo mb-4" alt="logo" />
+                    <h1>Hold deg oppdatert</h1>
+                </div>
                 <RssCard
                     logo={<FontAwesomeIcon icon={faFacebook} />}
                     src="1HiyaYcJyXrKpUEI"
                     title="Oasen - Søgne"
                 />
-                <RssCard
+                {/* <RssCard
                     logo={<FontAwesomeIcon icon={faFacebook} />}
                     src="Xd6rOY38yuFbHPTO"
                     title="Oasen - Mandal"
-                />
+                /> */}
                 <RssCard
                     logo={<FontAwesomeIcon icon={faInstagram} />}
                     src="zDJdX70kW9sxZIzH"

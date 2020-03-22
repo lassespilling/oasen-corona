@@ -21,7 +21,7 @@ const responsive = {
     }
 };
 
-export default (props) => {
+export default props => {
     const { items } = props;
     return (
         <Carousel
@@ -34,12 +34,16 @@ export default (props) => {
             autoPlaySpeed={1000}
         >
             {items.map(item => (
-                <img
-                    className="w-100"
-                    src={item.thumbnail}
-                    alt=""
-                    draggable="false"
-                />
+                <div className="overflow-hidden w-100">
+                    <img
+                        style={{ objectFit: "cover" }}
+                        src={item.thumbnail}
+                        alt=""
+                        draggable="false"
+                        className="w-100"
+                        height="200"
+                    />
+                </div>
             ))}
         </Carousel>
     );

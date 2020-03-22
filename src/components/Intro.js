@@ -2,11 +2,14 @@ import React from "react";
 import logo from "../assets/logo.svg";
 import Emoji from "./layout/Emoji";
 import "./intro.scss";
-
 class Intro extends React.Component {
     render() {
         return (
             <section id="intro">
+                <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/SARS-CoV-2_without_background.png/220px-SARS-CoV-2_without_background.png"
+                    alt=""
+                />
                 <div class="container pt-5 pb-5">
                     <div class="row text-center pb-5">
                         <div class="col-12">

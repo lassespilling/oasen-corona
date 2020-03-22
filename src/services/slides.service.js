@@ -84,9 +84,9 @@ export const fetchMosjon = () => {
                 "Content-Type": "application/json",
                 Accept: "application/json"
             },
-            body: JSON.stringify({ query: "{allMosjon{title, thumbnail}}" })
+            body: JSON.stringify({ query: "{allGym{title, thumbnail}}" })
         }
     )
         .then(r => r.json())
-        .then(d => d.data.allMosjon);
+        .then(d => d.data.allGym);
 };

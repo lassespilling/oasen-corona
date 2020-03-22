@@ -92,7 +92,6 @@ kan det være vanskelig å velge"
                     title="Spill"
                     subtitle="Fra terning, kort, brett
 og kontroller, gir vi deg tipsene."
-                    body="Det finnes mye bra, men det krever at en kommer gjennom jungelen av ukjente,  destruktive og rett og slett dårlige film og tv-produksjoner. Det finnes mye som ikke akkurat gjør deg til et klokere eller bedre menneske, derfor har vi gjort jobben med å gå igjennom streamingtjenester, filmer og tv-serier som vi vet er bra!"
                     slider={<Carousel items={spill} />}
                 />
                 <RessurserCard

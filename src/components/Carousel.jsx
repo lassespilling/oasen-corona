@@ -13,11 +13,11 @@ const responsive = {
     },
     tablet: {
         breakpoint: { max: 1024, min: 600 },
-        items: 4
+        items: 3
     },
     mobile: {
         breakpoint: { max: 600, min: 0 },
-        items: 3
+        items: 2
     }
 };
 
@@ -32,17 +32,20 @@ export default props => {
             ssr={true} // means to render carousel on server-side.
             infinite={true}
             autoPlaySpeed={1000}
+            className="rounded"
         >
             {items.map(item => (
-                <div className="overflow-hidden w-100">
-                    <img
-                        style={{ objectFit: "cover" }}
-                        src={item.thumbnail}
-                        alt=""
-                        draggable="false"
-                        className="w-100"
-                        height="200"
-                    />
+                <div className="p-1">
+                    <div className="overflow-hidden w-100">
+                        <img
+                            style={{ objectFit: "cover" }}
+                            src={item.thumbnail}
+                            alt=""
+                            draggable="false"
+                            className="w-100 rounded"
+                            height="300"
+                        />
+                    </div>
                 </div>
             ))}
         </Carousel>

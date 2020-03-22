@@ -15,7 +15,7 @@ const RessurserCard = ({
     return (
         <div
             style={{
-                background: `url('${bg}')`,
+                background: `url('${bg}') center center / cover no-repeat`,
                 color: color
             }}
             className="my-5 bg-light rounded shadow ressurser__card"

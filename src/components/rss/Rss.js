@@ -3,14 +3,18 @@ import RssCard from "./RssCard";
 import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import logo from "../../assets/logo.svg";
+import ScrollAnimation from "react-animate-on-scroll";
+import "animate.css/animate.min.css";
 
 const Rss = () => {
     return (
         <div className="row mx-auto" id="rss">
             <div className="row p-4" id="hilsen">
                 <div className="col-8 mx-auto my-5">
-                    <img src={logo} className="App-logo mb-4" alt="logo" />
-                    <h1>Hold deg oppdatert</h1>
+                    <ScrollAnimation animateIn="fadeIn">
+                        <img src={logo} className="App-logo mb-4" alt="logo" />
+                        <h1>Hold deg oppdatert</h1>
+                    </ScrollAnimation>
                 </div>
                 <RssCard
                     logo={<FontAwesomeIcon icon={faFacebook} />}

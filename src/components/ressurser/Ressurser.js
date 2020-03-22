@@ -11,6 +11,8 @@ import {
     fetchBibelvers,
     fetchMosjon
 } from "../../services/slides.service";
+import ScrollAnimation from "react-animate-on-scroll";
+import "animate.css/animate.min.css";
 
 const Ressurser = () => {
     const [streaming, setStreaming] = useState([]);
@@ -47,18 +49,20 @@ const Ressurser = () => {
         <section id="ressurser">
             <div class="container py-5">
                 <div class="row my-5">
-                    <h1 class="w-100">
-                        <Emoji symbol="📚" label="books" />
-                        <Emoji symbol="📽" label="movies" />
-                        <Emoji symbol="🎲" label="games" />
-                        <Emoji symbol="⛪︎" label="church" />
-                        <Emoji symbol="🏋️‍♂️" label="gym" />
-                        <br></br>
-                        <span class="mt-5 d-block">Ressurser</span>
-                    </h1>
-                    <h2 class="w-100 mb-5">
-                        Tips og triks til den nye hverdagen
-                    </h2>
+                    <ScrollAnimation animateIn="fadeIn">
+                        <h1 class="w-100">
+                            <Emoji symbol="📚" label="books" />
+                            <Emoji symbol="📽" label="movies" />
+                            <Emoji symbol="🎲" label="games" />
+                            <Emoji symbol="⛪︎" label="church" />
+                            <Emoji symbol="🏋️‍♂️" label="gym" />
+                            <br></br>
+                            <span class="mt-5 d-block">Ressurser</span>
+                        </h1>
+                        <h2 class="w-100 mb-5">
+                            Tips og triks til den nye hverdagen
+                        </h2>
+                    </ScrollAnimation>
                 </div>
                 <RessurserCard
                     bg="https://www.xmple.com/wallpaper/black-brown-gradient-linear-1920x1080-c2-000000-cd853f-a-90-f-14.svg"
@@ -107,11 +111,8 @@ er bønn og bibel desto viktigere."
                     bg="https://cmkt-image-prd.freetls.fastly.net/0.1.0/ps/4702711/300/200/m2/fpnw/wm0/hg6yecrq7vuilyyr2r8qj9rhmn5u95yjxvbz6jdix5cxmuzyddhzfoplg2wlkix6-.jpg?1530644796&s=a965adc2444b000292186a0b9f275d58"
                     color="white"
                     overlay="rgba(0,0,0,0.5)"
-                    titleEmoji="⛪︎"
-                    title="Bibelvers"
-                    subtitle="Last ned bibelvers som bakgrunn til telefonen
-eller print ut og
-heng på veggen"
+                    titleEmoji="❤️"
+                    title="Oppmuntrende ord"
                     slider={<Carousel items={bibelvers} />}
                 />
                 <RessurserCard

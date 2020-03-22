@@ -1,7 +1,48 @@
-$color--brown: #834e21;
+$color--brown: #d48c4d;
 
 body {
     color: $color--brown;
+}
+
+.heartbeat {
+    animation: heartbeat 1.5s infinite forwards ease-in-out;
+}
+.vipps {
+    animation: vipps 3s infinite forwards ease-in-out;
+}
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(1.05);
+    }
+    40% {
+        transform: scale(1);
+    }
+    60% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes vipps {
+    0% {
+        transform: scale(1) translateY(0);
+    }
+    25% {
+        transform: scale(1.01) translateY(-0.2rem);
+    }
+    40% {
+        transform: scale(1) translateY(0);
+    }
+    60% {
+        transform: scale(1.01) translateY(-0.2rem);
+    }
+    100% {
+        transform: scale(1) translateY(0);
+    }
 }
 
 /* Cards */

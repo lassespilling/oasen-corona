@@ -4,6 +4,8 @@ import "./hillsong.scss";
 import HillsongLive from "./HillsongLive";
 import { faYoutube } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import ScrollAnimation from "react-animate-on-scroll";
+import "animate.css/animate.min.css";
 
 const Hillsong = () => {
     const placeholder = (
@@ -28,32 +30,34 @@ const Hillsong = () => {
     const [error, setError] = useState();
     return (
         <section id="ressurser">
-            <div class="container py-5">
-                <div class="row mb-5">
-                    <heading class="w-100 mb-5 row">
-                        <h1 class="text-center w-100">
-                            <img
-                                src="https://du9lyah05zc6l.cloudfront.net/wp-content/themes/hillsong/images/logo-outline-small.png"
-                                width="60px"
-                                className="mr-3 mb-3"
-                                style={{ filter: "invert(1)" }}
-                                alt=""
-                            />
-                            <FontAwesomeIcon
-                                color="#c4302b"
-                                icon={faYoutube}
-                                className="mr-3"
-                            />
-                            Hillsong Live
-                        </h1>
-                        <h2 class="h4 text-center mx-auto">
-                            Neste live sending: Søndag 11.00
-                        </h2>
-                    </heading>
-                    <HillsongLive onError={e => setError(placeholder)} />
-                    {error}
+            <ScrollAnimation animateIn="fadeIn">
+                <div class="container py-5">
+                    <div class="row mb-5">
+                        <heading class="w-100 mb-5 row">
+                            <h1 class="text-center w-100">
+                                <img
+                                    src="https://du9lyah05zc6l.cloudfront.net/wp-content/themes/hillsong/images/logo-outline-small.png"
+                                    width="60px"
+                                    className="mr-3 mb-3"
+                                    style={{ filter: "invert(1)" }}
+                                    alt=""
+                                />
+                                <FontAwesomeIcon
+                                    color="#c4302b"
+                                    icon={faYoutube}
+                                    className="mr-3"
+                                />
+                                Hillsong Live
+                            </h1>
+                            <h2 class="h4 text-center mx-auto">
+                                Neste live sending: Søndag 11.00
+                            </h2>
+                        </heading>
+                        <HillsongLive onError={e => setError(placeholder)} />
+                        {error}
+                    </div>
                 </div>
-            </div>
+            </ScrollAnimation>
         </section>
     );
 };

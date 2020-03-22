@@ -1,6 +1,8 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import ScrollAnimation from "react-animate-on-scroll";
+import "animate.css/animate.min.css";
 const responsive = {
     superLargeDesktop: {
         // the naming can be any, depends on you.
@@ -12,11 +14,11 @@ const responsive = {
         items: 4
     },
     tablet: {
-        breakpoint: { max: 1024, min: 600 },
+        breakpoint: { max: 1024, min: 800 },
         items: 3
     },
     mobile: {
-        breakpoint: { max: 600, min: 0 },
+        breakpoint: { max: 800, min: 0 },
         items: 2
     }
 };
@@ -37,14 +39,19 @@ export default props => {
             {items.map(item => (
                 <div className="p-1">
                     <div className="overflow-hidden w-100">
-                        <img
-                            style={{ objectFit: "cover" }}
-                            src={item.thumbnail}
-                            alt=""
-                            draggable="false"
-                            className="w-100 rounded"
-                            height="300"
-                        />
+                        <ScrollAnimation
+                            animateIn="fadeInUp"
+                            animateOnce="true"
+                        >
+                            <img
+                                style={{ objectFit: "cover" }}
+                                src={item.thumbnail}
+                                alt=""
+                                draggable="false"
+                                className="w-100 rounded"
+                                height="300"
+                            />
+                        </ScrollAnimation>
                     </div>
                 </div>
             ))}

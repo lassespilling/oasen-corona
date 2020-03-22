@@ -3,3 +3,11 @@
     min-height: 100vh;
     color: white;
 }
+.coronaparticle {
+    position: absolute;
+    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/SARS-CoV-2_without_background.png/220px-SARS-CoV-2_without_background.png")
+        center center / cover no-repeat;
+    display: block;
+    user-select: none;
+    pointer-events:none;
+}

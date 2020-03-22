@@ -3,7 +3,7 @@ import { fetchYoutubeLivestreamId } from "../../services/youtube.service";
 
 const hillsongChannel = process.env.REACT_APP_HILLSONG_YOUTUBE_CHANNEL;
 
-export default () => {
+export default (prop) => {
     const [video, setVideo] = useState();
     useEffect(() => {
         fetchYoutubeLivestreamId(hillsongChannel, true)
@@ -11,9 +11,9 @@ export default () => {
             .catch(() =>
                 fetchYoutubeLivestreamId(hillsongChannel, false)
                     .then(setVideo)
-                    .catch(console.error)
+                    .catch((e) => prop.onError && prop.onError(e))
             );
-    }, []);
+    }, [prop]);
 
     return (
         (video && (
@@ -24,6 +24,7 @@ export default () => {
                 frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
+                title="hillsong live video"
             ></iframe>
         )) ||
         []

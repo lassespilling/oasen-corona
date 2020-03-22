@@ -10,9 +10,9 @@ const Footer = () => {
                     <h2>Corona</h2>
                 </div>
                 <div className="col-sm-4 text-right">
-                    <a href="#" className="h6 btn btn-outline-light">
+                    <p className="h6 btn btn-outline-light">
                         post@oasen.org
-                    </a>
+                    </p>
                 </div>
                 <div className="col-sm-2 text-right">
                     <img

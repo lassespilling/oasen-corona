@@ -1,6 +1,5 @@
 import React from "react";
 import RssCard from "./RssCard";
-import FacebookLogo from "../../assets/facebook.svg";
 import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 

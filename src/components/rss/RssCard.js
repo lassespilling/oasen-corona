@@ -22,16 +22,12 @@ function RssCard({ logo, src, title }) {
                                 {title}
                             </h3>
                         </div>
-                        <div className="col-sm-12">
-
-                            <RssList src={src} />
-                        </div>
-                        {/* <div className="col-md-4 d-none d-md-block">
+                        <div className="col-md-4 d-none d-md-block">
                             <RssWall src={src} />
                         </div>
                         <div className="col-md-8">
                             <RssList src={src} />
-                        </div> */}
+                        </div>
                     </div>
                 </div>
             </ScrollAnimation>

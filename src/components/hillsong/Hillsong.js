@@ -11,7 +11,10 @@ const Hillsong = () => {
             <p className="w-100 text-center mb-3">
                 Sendingen vil være tilgjengelig her:
             </p>
-            <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUCYqNUyLIrVPHE5ts6YB5sUg%3Ffbclid%3DIwAR0UFkELl-kpbVJINAMFdq8MuVNxCHwIr8PDCZ4Dbjgq_jcRLH3dJKfLlbc&h=AT2JILWnldFa3tY8Gcntt1Bby59K_WrYAUk57Z_M651foX9a_xHQHzHP-LtKMNVXqL3G0rxg8orH0RcMQOY5Yghde-ruo2m3M8W95Kop7K5fDTVEGTNc--fQyxwXFdKBzARqYtA5_Ghp2H6TCI5KjlFx">
+            <a
+                href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUCYqNUyLIrVPHE5ts6YB5sUg%3Ffbclid%3DIwAR0UFkELl-kpbVJINAMFdq8MuVNxCHwIr8PDCZ4Dbjgq_jcRLH3dJKfLlbc&h=AT2JILWnldFa3tY8Gcntt1Bby59K_WrYAUk57Z_M651foX9a_xHQHzHP-LtKMNVXqL3G0rxg8orH0RcMQOY5Yghde-ruo2m3M8W95Kop7K5fDTVEGTNc--fQyxwXFdKBzARqYtA5_Ghp2H6TCI5KjlFx"
+                className="mx-auto"
+            >
                 <img
                     className="mx-auto w-100"
                     src="https://d9nqqwcssctr8.cloudfront.net/wp-content/uploads/2020/03/21030133/hsonline-ogimage.jpg"

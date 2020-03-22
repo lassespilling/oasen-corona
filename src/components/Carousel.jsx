@@ -19,7 +19,7 @@ const responsive = {
     },
     mobile: {
         breakpoint: { max: 800, min: 0 },
-        items: 2
+        items: 1
     }
 };
 
@@ -33,7 +33,8 @@ export default props => {
             showDots={false}
             ssr={true} // means to render carousel on server-side.
             infinite={true}
-            autoPlaySpeed={1000}
+            autoPlay={true}
+            autoPlaySpeed={3000}
             className="rounded"
         >
             {items.map(item => (

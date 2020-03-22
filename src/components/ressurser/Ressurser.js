@@ -46,7 +46,8 @@ const Ressurser = () => {
     }, []);
 
     return (
-            <section class="container py-5" id="ressurser">
+        <section class="py-5" id="ressurser">
+            <div className="container">
                 <div class="row my-5 p-5">
                     <ScrollAnimation animateIn="fadeIn">
                         <h1 class="w-100">
@@ -125,7 +126,8 @@ være mer utfordrende enn vanlig."
                     body="Det er nok de færreste som har treningssenter hjemme, og mange hverken tør eller bør bevege seg mye utendørs. Det finnes derimot mange gratis ressurser om tilbyr treningsopplegg for de som er hjemme uten utstyr."
                     slider={<Carousel items={mosjon} />}
                 />
-            </section>
+            </div>
+        </section>
     );
 };
 

@@ -16,7 +16,13 @@ body {
     display: block;
     user-select: none;
     overflow: hidden;
-    pointer-events:none;
+    pointer-events: none;
+}
+
+@media screen and (max-height: 500px) {
+    .hideonsmheight {
+        display: none;
+    }
 }
 @keyframes heartbeat {
     0% {
@@ -64,7 +70,12 @@ body {
 }
 
 /* Typography */
-h1,h2,h3,h4,h5,p {
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
     hyphens: auto;
     -webkit-hyphens: auto;
     -moz-hyphens: auto;

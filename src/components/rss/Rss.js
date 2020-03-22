@@ -8,39 +8,41 @@ import "animate.css/animate.min.css";
 
 const Rss = () => {
     return (
-        <div className="container mx-auto" id="rss">
-            <div className="row p-4" id="hilsen">
-                <div className="mx-auto p-3 my-5">
-                    <ScrollAnimation animateIn="fadeIn">
-                        <img src={logo} className="App-logo mb-4" alt="logo" />
-                        <h1>Hold deg oppdatert</h1>
-                    </ScrollAnimation>
+        <div className="mx-auto" id="rss">
+            <div className="container">
+                <div className="row p-4" id="hilsen">
+                    <div className="mx-auto p-3 my-5">
+                        <ScrollAnimation animateIn="fadeIn">
+                            <img src={logo} className="App-logo mb-4" alt="logo" />
+                            <h1>Hold deg oppdatert</h1>
+                        </ScrollAnimation>
+                    </div>
+                    <RssCard
+                        logo={<FontAwesomeIcon icon={faFacebook} />}
+                        src="1HiyaYcJyXrKpUEI"
+                        title="Oasen - Søgne"
+                    />
+                    {/* <RssCard
+                        logo={<FontAwesomeIcon icon={faFacebook} />}
+                        src="Xd6rOY38yuFbHPTO"
+                        title="Oasen - Mandal"
+                    /> */}
+                    <RssCard
+                        logo={<FontAwesomeIcon icon={faInstagram} />}
+                        src="zDJdX70kW9sxZIzH"
+                        title="Oasen Alive"
+                    />
+                    <RssCard
+                        logo={<FontAwesomeIcon icon={faFacebook} />}
+                        src="TWlH6bNQpnadojTR"
+                        title="Oasen Skolene"
+                    />
+                    <RssCard
+                        logo={<FontAwesomeIcon icon={faFacebook} />}
+                        src="ceG7HMgU9qbeumdI"
+                        title="Spiren Barnehage"
+                    />
                 </div>
-                <RssCard
-                    logo={<FontAwesomeIcon icon={faFacebook} />}
-                    src="1HiyaYcJyXrKpUEI"
-                    title="Oasen - Søgne"
-                />
-                {/* <RssCard
-                    logo={<FontAwesomeIcon icon={faFacebook} />}
-                    src="Xd6rOY38yuFbHPTO"
-                    title="Oasen - Mandal"
-                /> */}
-                <RssCard
-                    logo={<FontAwesomeIcon icon={faInstagram} />}
-                    src="zDJdX70kW9sxZIzH"
-                    title="Oasen Alive"
-                />
-                <RssCard
-                    logo={<FontAwesomeIcon icon={faFacebook} />}
-                    src="TWlH6bNQpnadojTR"
-                    title="Oasen Skolene"
-                />
-                <RssCard
-                    logo={<FontAwesomeIcon icon={faFacebook} />}
-                    src="ceG7HMgU9qbeumdI"
-                    title="Spiren Barnehage"
-                />
             </div>
         </div>
     );

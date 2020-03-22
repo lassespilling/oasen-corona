@@ -3,7 +3,7 @@ import { fetchYoutubeLivestreamId } from "../../services/youtube.service";
 
 const hillsongChannel = process.env.REACT_APP_HILLSONG_YOUTUBE_CHANNEL;
 
-export default (prop) => {
+export default prop => {
     const [video, setVideo] = useState();
     useEffect(() => {
         fetchYoutubeLivestreamId(hillsongChannel, true)
@@ -11,9 +11,9 @@ export default (prop) => {
             .catch(() =>
                 fetchYoutubeLivestreamId(hillsongChannel, false)
                     .then(setVideo)
-                    .catch((e) => prop.onError && prop.onError(e))
+                    .catch(e => prop.onError && prop.onError(e))
             );
-    }, [prop]);
+    }, []);
 
     return (
         (video && (

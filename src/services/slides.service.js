@@ -1,27 +1,92 @@
 import data from "./data.json";
 
 export const fetchBooks = () => {
-    return fetch('https://lk85qrxa.api.sanity.io/v1/graphql/test/default', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-            'Accept': 'application/json'
-        },
-        body: JSON.stringify({query: "{allBook{title, thumbnail}}"})
-    }).then(r => r.json()).then(d => d.data.allBook)
+    return fetch(
+        "https://lk85qrxa.api.sanity.io/v1/graphql/production/default",
+        {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                Accept: "application/json"
+            },
+            body: JSON.stringify({ query: "{allBook{title, thumbnail}}" })
+        }
+    )
+        .then(r => r.json())
+        .then(d => d.data.allBook);
 };
 export const fetchStreaming = () => {
-    return Promise.resolve(data.streaming);
+    return fetch(
+        "https://lk85qrxa.api.sanity.io/v1/graphql/production/default",
+        {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                Accept: "application/json"
+            },
+            body: JSON.stringify({ query: "{allStream{title, thumbnail}}" })
+        }
+    )
+        .then(r => r.json())
+        .then(d => d.data.allStream);
 };
 export const fetchSpill = () => {
-    return Promise.resolve(data.spill);
+    return fetch(
+        "https://lk85qrxa.api.sanity.io/v1/graphql/production/default",
+        {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                Accept: "application/json"
+            },
+            body: JSON.stringify({ query: "{allGame{title, thumbnail}}" })
+        }
+    )
+        .then(r => r.json())
+        .then(d => d.data.allGame);
 };
 export const fetchKirke = () => {
-    return Promise.resolve(data.kirke);
+    return fetch(
+        "https://lk85qrxa.api.sanity.io/v1/graphql/production/default",
+        {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                Accept: "application/json"
+            },
+            body: JSON.stringify({ query: "{allChurch{title, thumbnail}}" })
+        }
+    )
+        .then(r => r.json())
+        .then(d => d.data.allChurch);
 };
 export const fetchBibelvers = () => {
-    return Promise.resolve(data.bibelvers);
+    return fetch(
+        "https://lk85qrxa.api.sanity.io/v1/graphql/production/default",
+        {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                Accept: "application/json"
+            },
+            body: JSON.stringify({ query: "{allBibleverse{title, thumbnail}}" })
+        }
+    )
+        .then(r => r.json())
+        .then(d => d.data.allBibleverse);
 };
 export const fetchMosjon = () => {
-    return Promise.resolve(data.mosjon);
+    return fetch(
+        "https://lk85qrxa.api.sanity.io/v1/graphql/production/default",
+        {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                Accept: "application/json"
+            },
+            body: JSON.stringify({ query: "{allMosjon{title, thumbnail}}" })
+        }
+    )
+        .then(r => r.json())
+        .then(d => d.data.allMosjon);
 };

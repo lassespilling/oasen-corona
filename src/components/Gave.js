@@ -16,7 +16,10 @@ const Gave = () => {
                             <h1 className="mx-auto w-100 mb-5">
                                 <span className="mr-3">
                                     <div className="heartbeat">
-                                        <ScrollAnimation animateIn="pulse">
+                                        <ScrollAnimation
+                                            animateIn="pulse"
+                                            animateOnce="true"
+                                        >
                                             <Emoji symbol="❤️" label="heart" />
                                         </ScrollAnimation>
                                     </div>
@@ -36,6 +39,7 @@ const Gave = () => {
                             <h3 className="mb-3">Gi med Vipps</h3>
                             <div className="vipps ml-4">
                                 <ScrollAnimation
+                                    animateOnce="true"
                                     animateIn="pulse"
                                     className="row"
                                 >

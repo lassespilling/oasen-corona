@@ -17,7 +17,7 @@ class Intro extends React.Component {
         return (
             <section id="intro" className="container-fluid">
                 <div class="container pt-5 pb-5">
-                    <ScrollAnimation animateIn="fadeIn" animateOnce="true">
+                    <ScrollAnimation animateIn="fadeIn">
                         <div class="row text-center pb-5">
                             <div class="col-12">
                                 <img

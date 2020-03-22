@@ -98,7 +98,7 @@ og kontroller, gir vi deg tipsene."
                 <RessurserCard
                     bg="https://cmkt-image-prd.freetls.fastly.net/0.1.0/ps/4702711/300/200/m2/fpnw/wm0/hg6yecrq7vuilyyr2r8qj9rhmn5u95yjxvbz6jdix5cxmuzyddhzfoplg2wlkix6-.jpg?1530644796&s=a965adc2444b000292186a0b9f275d58"
                     color="white"
-                    overlay="rgba(0,0,0,0.5)"
+                    overlay="rgba(0,0,0,0.4)"
                     titleEmoji="⛪︎"
                     title="Kirke"
                     subtitle="Når brorskap uteblir,
@@ -107,15 +107,15 @@ er bønn og bibel desto viktigere."
                     slider={<Carousel items={kirke} />}
                 />
                 <RessurserCard
-                    bg="https://cmkt-image-prd.freetls.fastly.net/0.1.0/ps/4702711/300/200/m2/fpnw/wm0/hg6yecrq7vuilyyr2r8qj9rhmn5u95yjxvbz6jdix5cxmuzyddhzfoplg2wlkix6-.jpg?1530644796&s=a965adc2444b000292186a0b9f275d58"
+                    bg="https://www.ppt-backgrounds.net/thumbs/red-gradient-wallpaper-downloads-backgrounds.jpg"
                     color="white"
-                    overlay="rgba(0,0,0,0.5)"
+                    overlay="rgba(0,0,0,0.3)"
                     titleEmoji="❤️"
                     title="Oppmuntrende ord"
                     slider={<Carousel items={bibelvers} />}
                 />
                 <RessurserCard
-                    bg="https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v384-ning-03b-gradientbg_2.jpg?w=800&dpr=1&fit=default&crop=default&auto=format&fm=pjpg&q=75&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=551a4fe3e20bf7d62ff98f7a007c30d0"
+                    bg="https://images.unsplash.com/photo-1526324697630-7ae1a3930c53?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
                     color="white"
                     overlay="rgba(0,0,0,0.5)"
                     titleEmoji="🏋️‍♂️"

@@ -1,0 +1,7 @@
+.big-icon:before {
+    font-size: 72px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f00), to(#333));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: initial; /* reset Font Awesome's display:inline-block */
+  }​

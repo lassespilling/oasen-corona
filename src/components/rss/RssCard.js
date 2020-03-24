@@ -4,7 +4,7 @@ import RssWall from "./RssWall";
 import ScrollAnimation from "react-animate-on-scroll";
 import "animate.css/animate.min.css";
 
-function RssCard({ logo, src, title }) {
+function RssCard({ logo, src, title, variant = "default" }) {
     return (
         <div className="col-xl-6 mb-3">
             <ScrollAnimation animateIn="fadeIn">

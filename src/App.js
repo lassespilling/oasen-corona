@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.scss";
-import Intro from "./components/Intro";
-// import Corona from "./components/Corona";
+import Intro from "./components/intro/Intro";
+// import Corona from "./components/corona/Corona";
 // import Ressurser from "./components/ressurser/Ressurser";
 import Hillsong from "./components/hillsong/Hillsong";
 import Footer from "./components/layout/Footer";
-import Gave from "./components/Gave";
+import Gave from "./components/gave/Gave";
 
 // get our fontawesome imports
 import Rss from "./components/rss/Rss";

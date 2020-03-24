@@ -1,5 +1,5 @@
 import React from "react";
-import Emoji from "./layout/Emoji";
+import Emoji from "../layout/Emoji";
 import ScrollAnimation from "react-animate-on-scroll";
 import "animate.css/animate.min.css";
 import "./gave.scss";

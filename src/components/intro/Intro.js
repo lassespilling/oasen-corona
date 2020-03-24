@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "../assets/logo.svg";
-import Emoji from "./layout/Emoji";
+import logo from "../../assets/logo.svg";
+import Emoji from "../layout/Emoji";
 import "./intro.scss";
 import ScrollAnimation from "react-animate-on-scroll";
 import "animate.css/animate.min.css";

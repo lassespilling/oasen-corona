@@ -1,6 +1,5 @@
 import React from "react";
 import RssCard from "./RssCard";
-import RssWall from "./RssWall";
 import {
     faFacebook,
     faInstagram,

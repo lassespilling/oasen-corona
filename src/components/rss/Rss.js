@@ -12,7 +12,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 import "animate.css/animate.min.css";
 import "./rss.scss";
 const colors = {
-    facebook: "#3b5998",
+    facebook: "#B2B2FF",
     youtube: "#c4302b",
     instagram: "orange"
 };
@@ -32,7 +32,8 @@ const Rss = () => {
                             <h1>Hold deg oppdatert</h1>
                         </ScrollAnimation>
                     </div>
-                    {/* <RssCard
+                    <RssCard
+                        variant="wall"
                         logo={
                             <FontAwesomeIcon
                                 icon={faYoutube}
@@ -41,7 +42,8 @@ const Rss = () => {
                         }
                         src="wWgOYyZzLiVA9AdR"
                         title="Oasen - Siste videoer"
-                    /> */}
+                        classes=" mb-3 mx-auto t-center w-100"
+                    />
                     <RssCard
                         logo={
                             <FontAwesomeIcon
@@ -51,6 +53,7 @@ const Rss = () => {
                         }
                         src="1HiyaYcJyXrKpUEI"
                         title="Oasen - Søgne"
+                        classes="col-xl-6 mb-3"
                     />
                     <RssCard
                         logo={
@@ -61,6 +64,7 @@ const Rss = () => {
                         }
                         src="Xd6rOY38yuFbHPTO"
                         title="Oasen - Mandal"
+                        classes="col-xl-6 mb-3"
                     />
                     <RssCard
                         logo={
@@ -72,6 +76,7 @@ const Rss = () => {
                         }
                         src="zDJdX70kW9sxZIzH"
                         title="Oasen Alive"
+                        classes="col-xl-6 mb-3"
                     />
                     <RssCard
                         logo={
@@ -82,6 +87,7 @@ const Rss = () => {
                         }
                         src="TWlH6bNQpnadojTR"
                         title="Oasen Skolene"
+                        classes="col-xl-6 mb-3"
                     />
                     <RssCard
                         logo={
@@ -92,6 +98,7 @@ const Rss = () => {
                         }
                         src="ceG7HMgU9qbeumdI"
                         title="Spiren Barnehage"
+                        classes="col-xl-6 mb-3"
                     />
                 </div>
             </div>

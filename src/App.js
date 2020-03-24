@@ -10,6 +10,7 @@ import Gave from "./components/Gave";
 // get our fontawesome imports
 import Rss from "./components/rss/Rss";
 import C from "./components/layout/CoronaParticle";
+import ContactForm from "./components/contact/ContactForm";
 
 function App() {
     return (
@@ -27,6 +28,7 @@ function App() {
             <Rss />
             {/* <Ressurser /> */}
             <Gave />
+            <ContactForm />
             <Footer />
         </div>
     );

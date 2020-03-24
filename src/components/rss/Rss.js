@@ -1,5 +1,6 @@
 import React from "react";
 import RssCard from "./RssCard";
+import RssWall from "./RssWall";
 import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import logo from "../../assets/logo.svg";
@@ -21,6 +22,7 @@ const Rss = () => {
                             <h1>Hold deg oppdatert</h1>
                         </ScrollAnimation>
                     </div>
+                    <RssWall id="wWgOYyZzLiVA9AdR" />
                     <RssCard
                         logo={<FontAwesomeIcon icon={faFacebook} />}
                         src="1HiyaYcJyXrKpUEI"

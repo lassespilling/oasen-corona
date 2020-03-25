@@ -28,7 +28,7 @@ function RssCard({ logo, src, title, variant = "default", classes }) {
     return (
         <div className={classes}>
             <ScrollAnimation animateIn="fadeIn">
-                <div className="p-4">
+                <div>
                     <div className="row">
                         <div className="col-sm-12 text-white">
                             <h3>

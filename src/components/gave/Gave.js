@@ -33,12 +33,12 @@ const Gave = () => {
                                 det.
                             </p>
                         </div>
-                        <div className="col-sm-12 mx-auto mb-5">
-                            <div className="vipps ml-4 row text-center">
+                        <div className="col-sm-12 mx-auto mb-5 p-0">
+                            <div className="vipps row text-center">
                                 <div className="col-6 mt-2 text-right">
                                     <img
                                         src="https://www.vipps.no/static/vipps_theme/1.0.51/media/extra-images/vipps-logo.svg"
-                                        width="150px"
+                                        width="100px"
                                         alt="vipps logo mx-3"
                                     ></img>
                                 </div>
@@ -54,7 +54,7 @@ const Gave = () => {
                             <div className="row">
                                 <a
                                     href="https://oasen.org/bli-med/gi-en-gave/"
-                                    className="mx-auto btn btn-large my-3 btn-outline-dark"
+                                    className="mx-auto btn btn-lg my-3 btn-outline-dark"
                                 >
                                     {" "}
                                     <b>Les mer</b>

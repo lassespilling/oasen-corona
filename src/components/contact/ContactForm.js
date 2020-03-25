@@ -4,7 +4,7 @@ export default () => {
     return (
         <section className="py-5" id="ressurser">
             <div className="container">
-                <div className="row my-5 p-5">
+                <div className="row my-5">
                     <iframe
                         id="kontaktIframe"
                         title="kontaktskjema"

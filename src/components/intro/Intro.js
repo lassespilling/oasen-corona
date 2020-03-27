@@ -40,18 +40,17 @@ class Intro extends React.Component {
                     <div className="row" id="hilsen">
                         <div className="col-sm-8 mx-auto p-4 bg-light text-dark rounded shadow">
                             <p>
-                                Vi er i en rar periode, mange har alle barna
-                                hjemme, samtidig som de prøver å jobbe. Noen
-                                sitter i karantene, noen er bekymret for hva
-                                viruset kan gjøre hvis man selv eller noen av de
-                                nærmeste blir smittet, noen er bekymret for
-                                økonomien sin, for arbeidsplassen sin osv. Men
-                                er det en ting mange av oss plutselig har fått
-                                litt mer av, så er det nettopp tid!
+                                Vi er i en unntakstilstand, men Gud er fremdeles
+                                Gud. Og kirken er fremdeles kirken. Gud vil være
+                                vår stødige klippe og våre utømmelige kilde til
+                                liv, også når vi ikke kan treffes fysisk. Denne
+                                hjelpesiden samler alt fra Oasen på et sted. Vi
+                                ønsker også å høre fra deg i denne tiden, så ta
+                                mer enn gjerne kontakt nederst på siden!
                                 <Emoji symbol="❤️" label="heart" />
                                 <Emoji symbol="😊" label="smile" />
                             </p>
-                            <p class="author text-right">- Daniel K.</p>
+                            <p class="author text-right">- Pastor Daniel</p>
                         </div>
                     </div>
                 </div>
